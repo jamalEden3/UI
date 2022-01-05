@@ -34,3 +34,52 @@ p {
 body {
     width: 100%;
 }
+
+/*Navbar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.06);
+}
+.navbar__logo {
+
+}
+.navbar__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar__item {
+    list-style-type: none;
+    padding: 0 20px;
+    position: relative;
+}
+.navbar__link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: all ease-in-out 0.2s;
+}
+.navbar__link:hover,
+.navbar__link.active {
+    color: #088178;
+}
+.navbar__link.active::after,
+.navbar__link.hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.navbar__cart {
+
+}
