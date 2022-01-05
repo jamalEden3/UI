@@ -70,6 +70,7 @@ body {
     color: #088178;
 }
 .navbar__link.active::after,
+
 .navbar__link.hover::after {
     content: "";
     width: 30%;
