@@ -35,6 +35,9 @@ body {
     width: 100%;
 }
 
+.section-p1 {
+    padding: 40px 80px;
+}
 /*Navbar*/
 #navbar {
     display: flex;
@@ -121,4 +124,15 @@ i.navbar__cart {
     background-repeat: no-repeat;
     font-weight: 700 ;
     font-size: 15px ;
+}
+
+/*features*/
+.feature {
+    width: 180px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 25px 10px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin: 15px 0;
 }
