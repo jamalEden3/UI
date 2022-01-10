@@ -84,4 +84,9 @@ body {
 i.navbar__cart {
     font-size: 20px;
     color: #088178;
+    cursor: pointer;
+}
+
+/* Header and Banner*/
+#header {
 }
