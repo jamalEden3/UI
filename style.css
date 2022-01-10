@@ -130,9 +130,22 @@ i.navbar__cart {
 .feature {
     width: 180px;
     text-align: center;
-    border: 1px solid #000;
-    padding: 25px 10px;
+    border: 1px solid rgb(214, 212, 212);
+    padding: 10px 10px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border-radius: 4px;
     margin: 15px 0;
+}
+.feature:hover {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.15);
+}
+.feature__image {
+    width: 100%;
+}
+.feature__name {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: thistle;
+    border-radius: 5px;
+    color: #088178;
 }
