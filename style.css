@@ -12,7 +12,7 @@ h1 {
     color: #222;
  }
 h2 {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 54px;
     color: #222;
 }
@@ -42,7 +42,10 @@ body {
     justify-content: space-between;
     padding: 20px 80px;
     background-color: #E3E6F3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.06);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .navbar__logo {
     width: 50px;
@@ -89,5 +92,33 @@ i.navbar__cart {
 
 /* Header and Banner*/
 #header {
-    background-image: url('./assets/images/');
+    background-image: url('./assets/images/hero4.png');
+    background-size: cover;
+    background-position: top 25% right 0;
+    height: 80vh;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.header__h4 {
+    padding-bottom: 20px;
+}
+.header__h1 {
+    color: #088178;
+    padding: 20px 0;
+}
+.header__btn {
+    background-image: url('./assets/images/button.png');
+    color: #088178;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 16px 53px 11px 82px;
+    background-repeat: no-repeat;
+    font-weight: 700 ;
+    font-size: 15px ;
 }
