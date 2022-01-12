@@ -38,6 +38,9 @@ body {
 .section-p1 {
     padding: 40px 80px;
 }
+.section-m1 {
+    margin: 40px 0;
+}
 /*Navbar*/
 #navbar {
     display: flex;
@@ -223,9 +226,6 @@ text-align: center;
     color: #1a1a1a;
     font-size: 16px;
 }
-.product__stars {
-
-}
 .product__stars i {
     font-size: 12px;
     color: rgb(255, 157, 71);
@@ -252,4 +252,34 @@ text-align: center;
     padding: 12px 0;
     cursor: pointer;
     font-size: 20px;
+}
+
+/*Banner*/
+#banner {
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('./assets/images/banner/b2.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner__title {
+    color: #fff;
+    font-size: 16px;
+}
+.banner__offer {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.banner__offer span {
+    color: #ee7606;
+}
+.banner__btn {
+
 }
