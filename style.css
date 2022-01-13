@@ -348,3 +348,37 @@ text-align: center;
     background-color: #088178;
     border: 1px solid #088178;
 }
+
+/*Advertisment*/
+#adv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    gap: 20px;
+}
+.adv-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('./assets/images/banner/b7.jpg');
+    flex: 1;
+    min-width: 30%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.adv-box__h2 {
+    color: #fff;
+    nav-down: 900;
+    font-size: 20px;
+}
+.adv-box__h3 {
+    color: #ec544e;
+    nav-down: 800;
+    font-size: 15px;
+}
